@@ -27,7 +27,7 @@ describe('Template literals', () => {
     expect(multiLine).toBe('\n    Oh\n    my\n    dear\n    so much fun!')
   })
 
-  fit('should support string escaping', () => {
+  it('should support string escaping', () => {
     // escape a string in a template literal for each of these
     let toto1 = `Hi
 there!`
