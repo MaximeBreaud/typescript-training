@@ -17,6 +17,7 @@
     "src/matchers.ts",
     "src/fake.spec.ts",
     "src/main/*.ts",
-    "src/datatypes/*.ts"
+    "src/datatypes/*.ts",
+    "src/params/*.ts"    
   ]
 }
