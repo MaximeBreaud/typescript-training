@@ -40,7 +40,7 @@ describe('default parameters', () => {
     expect(triggerCount).toBe(2)
   })
 
-  fit('can default all arguments, optionally', () => {
+  it('can default all arguments, optionally', () => {
     // Modify the method signature of `myFunction` to allow for all args to be optional
 
     function myFunction({name = "John", age = 40, favoriteBand = 'The Beatles'} = {}) {
